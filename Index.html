@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h2>
+        <marquee>Let's & Play Dice Game!</marquee>
+    </h2>
+    <h3 id="massage" class="massage"></h3>
+    <div class="container">
+        <div onclick="luckNum(1)" class="box"><img class="img"
+                src="./images/240_F_490519705_tZYOuxHvZIANTkqHsH4It1UUWthTVY0a.jpg" alt=""></div>
+        <div onclick="luckNum(2)" class="box"><img class="img" src="./images/2.png" alt=""></div>
+        <div onclick="luckNum(3)" class="box"><img id="img" src="./images/download.jpeg3.jpeg" alt=""></div>
+        <div onclick="luckNum(4)" class="box"><img class="img" src="./images/download.jpeg4.jpeg" alt=""></div>
+        <div onclick="luckNum(5)" class="box"><img id="img" src="./images/download.jpeg4.jpeg5.jpeg" alt=""></div>
+        <div onclick="luckNum(6)" class="box"><img class="img"
+                src="./images/6colorful-dice-dark-background_978491-2559.jpg" alt=""></div>
+    </div>
+    <div class="container2">
+
+        <div class="info_box"> <b>User Number:</b> <span id="user_number">10</span> </div>
+        <div class="info_box_r"> <b>Random Number:</b> <span id="random_number">3</span> </div>
+        <div id="info_box_result" class="info_box_re"><b id="result"></b></div>
+    </div>
+    <di class="container3">
+        <div class="info_box"> <b>Turns:</b> <span id="total">10</span> </div>
+        <div class="info_box_win"> <b></b><span id="win">0</span> </div>
+        <div class="info_box_win2"> <b></b> <span id="loss">0</span> </div>
+        </div>
+
+
+        <script src="app.js"></script>
+</body>
+
+</html>
